@@ -6,7 +6,6 @@ from nltk.corpus import stopwords
 from string import punctuation
 from nltk.stem.porter import PorterStemmer
 
-transform_text_func=pickle.load(open('text_transformer_func.pkl','rb'))
 cv=pickle.load(open('models/count_vectorizer.pkl','rb'))
 scaler=pickle.load(open('models/scaler.pkl','rb'))
 model=pickle.load(open('models/model.pkl','rb'))
@@ -46,8 +45,7 @@ input_sms=st.text_input("Enter the message")
 if st.button("Predict"):
 
     ## 1. Preprocess
-    # transformed_sms = transform_text(input_sms)
-    transformed_sms = transform_text_func(input_sms)
+    transformed_sms = transform_text(input_sms)
     transformed_sms=[transformed_sms]
 
     ## 2. Vectorize
