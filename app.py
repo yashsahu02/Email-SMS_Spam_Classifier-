@@ -39,8 +39,8 @@ def transform_text(text):
 # title of the page
 st.title("Email/SMS Spam Classifier")
 
-input_sms=st.text_input("Enter the message")
-
+input_sms=st.text_area("Enter the message")
+    
 ## Predict button
 if st.button("Predict"):
 
@@ -59,3 +59,4 @@ if st.button("Predict"):
         st.header("Spam")
     else:
         st.header("Non Spam")
+        
