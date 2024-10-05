@@ -9,8 +9,6 @@
 ![Screenshot (18)](https://github.com/user-attachments/assets/d7028574-3d59-4648-ae7e-5deff0aa45fb)
 
 <br>
-<hr>
-<br>
 
 ![Screenshot (19)](https://github.com/user-attachments/assets/6a681e27-55b0-4cfa-91eb-491983f9a2c1)
 
