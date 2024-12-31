@@ -2,13 +2,13 @@ import streamlit as st
 import pickle 
 import string
 import nltk
-nltk.download('punkt', quiet=True)
+nltk.download('punkt')
 
 from nltk.corpus import stopwords
 from string import punctuation
 from nltk.stem.porter import PorterStemmer
 
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize 
 
 cv=pickle.load(open('models/count_vectorizer.pkl','rb'))
 scaler=pickle.load(open('models/scaler.pkl','rb'))
