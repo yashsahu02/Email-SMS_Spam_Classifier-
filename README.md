@@ -99,7 +99,7 @@ Here app.py is name of python file.
 - Accuracy Score: 0.9719
 - Precision Score: 0.9909
 - Confusion Matrix: 
- [[895   1]
+ [[895   1]<br>
  [ 28 110]]
 
 
