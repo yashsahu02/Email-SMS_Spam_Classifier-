@@ -81,7 +81,7 @@ Algorithm Used: RandomForestClassifier
 
 ## 7. Usage
 #### Run the application:
-**command:** <code>streamlit run app.py</code>
+- **command:** <code>streamlit run app.py</code><br>
 Here app.py is name of python file.
 #### Use the web interface to:
 
