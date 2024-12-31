@@ -40,6 +40,18 @@ The dataset used in this project was obtained from Kaggle's Email Spam Dataset.
 
 **Source**: <a href='https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset'>SMS Spam Collection Dataset</a>
 
+<hr>
+
+## 4. Model Overview
+Algorithm Used: RandomForestClassifier
+#### Preprocessing Steps:
+- Text cleaning (removal of special characters, stop words, etc.).
+- Feature extraction using TF-IDF or Bag of Words.
+#### Evaluation Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
 
 
 
