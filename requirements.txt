@@ -7,3 +7,5 @@ seaborn
 wordcloud
 collection
 streamlit
+
+gunicorn==19.7.1
