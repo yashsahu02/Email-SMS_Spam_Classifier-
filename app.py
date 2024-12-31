@@ -8,6 +8,8 @@ from nltk.corpus import stopwords
 from string import punctuation
 from nltk.stem.porter import PorterStemmer
 
+from nltk.tokenize import word_tokenize
+
 cv=pickle.load(open('models/count_vectorizer.pkl','rb'))
 scaler=pickle.load(open('models/scaler.pkl','rb'))
 model=pickle.load(open('models/model.pkl','rb'))
@@ -17,7 +19,7 @@ ps=PorterStemmer()
 ## creating a function to transform the text -->
 def transform_text(text):
     text=text.lower() ## lower case
-    text=nltk.word_tokenize(text)  ## tokenization
+    text=word_tokenize(text)  ## tokenization
     y=[]
     for i in text:  ## removing special characters
         if i.isalnum():
