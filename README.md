@@ -113,13 +113,16 @@ Here app.py is name of python file.
 
 ## 10. Demo
 
-Live Demo
+### Live Demo : <a href='https://www.freeconvert.com/video-compressor/download'>Try It Out</a> 
 
 <!-- -->
 
 ### Demo Video:
 <br>
 
+https://github.com/user-attachments/assets/f1dcfa4f-a2c6-40db-ae4d-78c7be8250a3
+
+<br>
 
 ### Screenshot: 
 <br>
