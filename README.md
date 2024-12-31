@@ -91,6 +91,16 @@ Here app.py is name of python file.
 - Manually input email text.
 - View classification results (spam or not spam).
 
+<hr>
+
+## 8. Results
+#### Model Performance:
+
+- Accuracy Score: 0.9719
+- Precision Score: 0.9909
+- Confusion Matrix: 
+ [[895   1]
+ [ 28 110]]
 
 
 
