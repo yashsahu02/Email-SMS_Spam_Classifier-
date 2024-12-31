@@ -98,13 +98,31 @@ Here app.py is name of python file.
 
 - Accuracy Score: 0.9719
 - Precision Score: 0.9909
-- Confusion Matrix: 
+- Confusion Matrix:<br> 
  [[895   1]<br>
  [ 28 110]]
 
+<hr>
+
+## 9. Future Work
+1. Integrate advanced machine learning models like XGBoost or CatBoost to improve classification performance.
+2. Add adaptive learning to allow the model to improve over time based on user feedback.
+3. Explore deep learning models like LSTMs or BERT for better text understanding.
+
+<hr>
+
+## 10. Demo
+
+Live Demo
+
+<!-- -->
+
+### Demo Video:
+<br>
 
 
-
+### Screenshot: 
+<br>
 
 ![Screenshot (17)](https://github.com/user-attachments/assets/61b6de1c-b581-4069-989b-b9b1a2c41d17)
 
