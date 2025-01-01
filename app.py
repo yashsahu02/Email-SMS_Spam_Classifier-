@@ -3,8 +3,10 @@ import pickle
 import string
 import nltk
 import nltk
+
 nltk.download('punkt')
 nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 from nltk.corpus import stopwords
 from string import punctuation
