@@ -114,9 +114,9 @@ Here app.py is name of python file.
 <hr>
 
 ## 10. Demo
-<!--
-### Live Demo : <a href='https://www.freeconvert.com/video-compressor/download'>Try It Out</a> 
--->
+
+### Live Demo : <a style="text-decoration: none;" target="_blank" href='https://email-spam-classifierr.streamlit.app/'>Try It Out..</a>
+
 
 ### Demo Video:
 <br>
